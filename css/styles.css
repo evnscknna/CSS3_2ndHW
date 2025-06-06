@@ -76,11 +76,16 @@ p {
 
 /* Link styles */
 a {
-    color: #4a90e2;
+    color: #1a237e;
     text-decoration: none;
 }
 
 a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: #ffeb3b;
     text-decoration: underline;
 }
 
