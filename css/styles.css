@@ -18,6 +18,8 @@ header {
 nav {
     background-color: #2c3e50;
     padding: 10px 0;
+    display: inline-block;
+    width: 80%;
 }
 
 nav ul {
@@ -28,11 +30,12 @@ nav ul {
     justify-content: center;
 }
 
-nav li {
+/* Commenting out li styling as requested */
+/* nav li {
     display: inline-block;
     width: auto;
     margin: 0 15px;
-}
+} */
 
 nav a {
     color: #ffffff;
@@ -42,6 +45,13 @@ nav a {
 
 nav a:hover {
     color: #4a90e2;
+}
+
+/* Style for nav image */
+nav img {
+    width: 10%;
+    position: relative;
+    top: 20px;
 }
 
 /* Main content styles */
@@ -95,4 +105,25 @@ img {
     height: auto;
     border-radius: 8px;
     margin: 10px 0;
+}
+
+/* Grid styles */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: start;
+    row-gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+}
+
+/* Flex styles */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 } 
